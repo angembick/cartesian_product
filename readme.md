@@ -16,18 +16,24 @@ manually_test_cartesian_products.py
  How to Run
 
  1) clone repo locally
+
  2) using the terminal open up folder
+ 
  3) run 
+ 
       $ python manually_test_cartesian_products.py
+ 
  4) as prompted by text type in set and verify it matches bash output 
+ 
  5) view output to check that cartesian product is correctly generated
 
 
+ ****************************************************************************************************************
 
  EXAMPLE:
-    cart_prod :> python manually_test_cartesian_products.py 
-    Enter a string of sets (eg {a,b}{c,d} ) : abc{d,e,f}g{h,i,j}
-    you entered abc{d,e,f}g{h,i,j}
-    code generated product: abcdgh abcdgi abcdgj abcegh abcegi abcegj abcfgh abcfgi abcfgj
-    bash generated product: abcdgh abcdgi abcdgj abcegh abcegi abcegj abcfgh abcfgi abcfgj
-    The code correctly replicated the Bash shells output
+    - cart_prod :> python manually_test_cartesian_products.py 
+    - Enter a string of sets (eg {a,b}{c,d} ) : abc{d,e,f}g{h,i,j}
+    - you entered abc{d,e,f}g{h,i,j}
+    - code generated product: abcdgh abcdgi abcdgj abcegh abcegi abcegj abcfgh abcfgi abcfgj
+    - bash generated product: abcdgh abcdgi abcdgj abcegh abcegi abcegj abcfgh abcfgi abcfgj
+    - The code correctly replicated the Bash shells output
